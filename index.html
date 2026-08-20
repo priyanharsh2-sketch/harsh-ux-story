@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Harsh — From Pixels to Problems</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#f5f2eb;color:#151515;font-family:Arial,Helvetica,sans-serif}
+.wrap{max-width:1100px;margin:auto;padding:0 28px}
+nav{position:fixed;z-index:50;top:16px;left:50%;transform:translateX(-50%);display:flex;gap:4px;padding:7px;background:rgba(255,255,255,.94);border:1px solid #ddd8cf;border-radius:40px;box-shadow:0 8px 25px rgba(0,0,0,.08)}
+nav a{color:#151515;text-decoration:none;font-size:12px;font-weight:700;padding:9px 12px;border-radius:25px;white-space:nowrap}
+nav a:hover{background:#eeeae2}
+section{min-height:90vh;display:flex;align-items:center;padding:110px 0}
+.grid{display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center;width:100%}
+.eyebrow{font-size:12px;letter-spacing:.15em;text-transform:uppercase;font-weight:800;color:#f05232;margin-bottom:18px}
+h1{font-size:clamp(54px,8vw,100px);line-height:.87;letter-spacing:-.065em;margin:0 0 25px}
+h2{font-size:clamp(40px,5vw,68px);line-height:.92;letter-spacing:-.055em;margin:0 0 22px}
+p{font-size:19px;line-height:1.55;color:#383838}
+.mark{background:#ffd84d;padding:0 4px}
+.heroimg{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:30px;display:block;box-shadow:0 20px 45px rgba(0,0,0,.13)}
+.photo{position:relative}
+.tag{position:absolute;background:#fff;border:2px solid #151515;border-radius:14px;padding:10px 13px;font-size:13px;font-weight:800;box-shadow:4px 4px 0 #151515}
+.t1{right:-14px;top:28px;transform:rotate(5deg)}.t2{left:-15px;bottom:30px;transform:rotate(-5deg)}
+.comic{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.panel{background:#fff;border:2px solid #151515;border-radius:18px;padding:22px;min-height:200px;box-shadow:5px 5px 0 #151515}
+.panel .emo{font-size:55px;margin:25px 0 12px}.panel b{font-size:21px}.muted{font-size:14px;color:#777}
+.button{background:#fff;border:2px solid #151515;border-radius:28px;padding:38px;text-align:center}
+.fake{display:inline-block;background:#3967ff;color:white;padding:16px 35px;border-radius:11px;font-size:22px;font-weight:800;margin:18px}
+.question{font-size:160px;font-weight:900;line-height:.55;color:#f05232}
+.pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}
+.pill{background:white;border:1px solid #d8d1c5;border-radius:30px;padding:10px 14px;font-weight:700;font-size:14px}
+.timeline{display:grid;gap:14px;margin-top:25px}
+.item{display:grid;grid-template-columns:110px 1fr;gap:15px;align-items:center}
+.item .yr{color:#f05232;font-weight:800;font-size:12px;text-transform:uppercase}
+.box{background:#fff;border:1px solid #ddd6ca;border-radius:18px;padding:20px}
+.box strong{font-size:22px}
+.four{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.four>div{background:#fff;border:2px solid #151515;border-radius:24px;padding:25px}
+.dark{background:#151515;color:#fff;border-radius:35px;padding:65px}
+.dark p{color:#ddd}.dark .eyebrow{color:#ffd84d}
+footer{text-align:center;color:#888;font-size:12px;padding:40px}
+@media(max-width:760px){
+ nav{max-width:calc(100% - 20px);overflow:auto;justify-content:flex-start}
+ .wrap{padding:0 18px}.grid{grid-template-columns:1fr;gap:35px}
+ section{min-height:auto;padding:100px 0}
+ .comic,.four{grid-template-columns:1fr}.item{grid-template-columns:1fr}
+ .question{font-size:100px}.dark{padding:35px 25px}
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="#home">Start</a><a href="#origin">Origin</a><a href="#visual">Visual</a><a href="#why">WHY?</a><a href="#ux">UX</a><a href="#journey">Journey</a><a href="#today">Today</a><a href="#end">End</a>
+</nav>
+
+<main class="wrap">
+<section id="home"><div class="grid">
+<div><div class="eyebrow">A designer's story</div>
+<h1>I started with <span class="mark">pixels.</span><br>I stayed for the problems.</h1>
+<p>12+ years of moving from making things look good to understanding why they should exist in the first place.</p>
+<p class="muted">Product Designer · Kotak · UX · Problem solving · Human behaviour</p></div>
+<div class="photo"><img class="heroimg" src="images/harsh-7.jpeg" alt="Harsh standing in a restaurant"><span class="tag t1">12+ YEARS ✦</span><span class="tag t2">Professional WHY-asker</span></div>
+</div></section>
+
+<section id="origin"><div class="grid">
+<div><div class="eyebrow">Chapter 01 · The beginning</div><h2>I didn't exactly fall in love with books.</h2><p>I was more comfortable with a computer than a textbook. So when it was time to choose a direction, design and animation sounded perfect.</p><p><span class="mark">More pixels. Fewer pages.</span></p></div>
+<div class="comic">
+<div class="panel"><b>Textbook?</b><div class="emo">📚</div><span class="muted">Me, wondering why this was necessary.</span></div>
+<div class="panel"><b>Computer?</b><div class="emo">💻</div><span class="muted">Now we're talking.</span></div>
+<div class="panel"><b>Design!</b><div class="emo">🎨</div><span class="muted">A career plan was born.</span></div>
+<div class="panel"><b>Let's go.</b><div class="emo">🚀</div><span class="muted">And that was the beginning.</span></div>
+</div></div></section>
+
+<section id="visual"><div class="grid">
+<div class="photo"><img class="heroimg" src="images/harsh-5.jpeg" alt="Harsh smiling outdoors"><span class="tag t1">VISUAL DESIGN ERA</span></div>
+<div><div class="eyebrow">Chapter 02 · Visual designer</div><h2>For the first few years, I made things <span class="mark">look good.</span></h2><p>Colour. Typography. Layout. Composition. Images. Polish.</p>
+<div class="pills"><span class="pill">🎨 Colour</span><span class="pill">🔤 Type</span><span class="pill">📐 Layout</span><span class="pill">🖼️ Visuals</span><span class="pill">✨ Polish</span></div>
+<div class="button" style="margin-top:25px"><div class="muted">CLIENT REQUEST:</div><strong>“Can you make the button blue?”</strong><div class="fake">CLICK ME</div><div class="muted">“Actually… make it green.”</div></div>
+</div></div></section>
+
+<section id="why"><div style="width:100%"><div class="eyebrow">The turning point</div><div class="grid" style="grid-template-columns:.55fr 1.45fr">
+<div><div class="question">?</div><div class="question" style="color:#3967ff">?</div></div>
+<div><h2>Then one question wouldn't leave me alone.</h2>
+<div class="button"><div class="muted">THE BUTTON WAS BLUE.</div><div class="fake">BLUE BUTTON</div><div style="font-size:clamp(30px,4vw,54px);font-weight:900">“But… <span class="mark">why is the button there?</span>”</div></div>
+<div class="pills"><span class="pill">Why here?</span><span class="pill">Why this action?</span><span class="pill">Why is the user struggling?</span><span class="pill">Do we need it?</span></div>
+</div></div></div></section>
+
+<section id="ux"><div class="grid">
+<div><div class="eyebrow">Chapter 03 · The shift</div><h2>I realised I wasn't interested in just designing screens.</h2><p>I was interested in the problem behind the screen — what people were trying to do, what they expected, where they got stuck, and how we could make the experience make sense.</p><p style="font-size:31px;font-weight:800">Less “How does it look?”<br>More <span class="mark">“Why does it work?”</span></p></div>
+<div class="photo"><img class="heroimg" src="images/harsh-3.jpeg" alt="Harsh portrait"><span class="tag t2">USER FIRST 👀</span></div>
+</div></section>
+
+<section><div style="width:100%"><div class="eyebrow">What changed</div><h2>My questions got better.</h2><div class="comic">
+<div class="panel"><div class="emo">👤</div><b>Who?</b><br><span class="muted">Who is using this?</span></div>
+<div class="panel"><div class="emo">🧠</div><b>Why?</b><br><span class="muted">What are they thinking and expecting?</span></div>
+<div class="panel"><div class="emo">🧩</div><b>What problem?</b><br><span class="muted">What are we actually trying to solve?</span></div>
+<div class="panel"><div class="emo">✨</div><b>Can it be simpler?</b><br><span class="muted">Can we remove friction instead of adding features?</span></div>
+</div></div></section>
+
+<section id="journey"><div style="width:100%"><div class="eyebrow">12+ years · The journey</div><h2>From visual craft to product thinking.</h2><div class="timeline">
+<div class="item"><div class="yr">Chapter 01</div><div class="box"><strong>Visual Designer</strong><br><span class="muted">Learning the craft of visual communication.</span></div></div>
+<div class="item"><div class="yr">Chapter 02</div><div class="box"><strong>Graphic Designer</strong><br><span class="muted">Understanding composition, hierarchy and storytelling.</span></div></div>
+<div class="item"><div class="yr">Chapter 03</div><div class="box"><strong>UX Designer</strong><br><span class="muted">Understanding users, behaviour, context and friction.</span></div></div>
+<div class="item"><div class="yr">Chapter 04</div><div class="box"><strong>Product Designer</strong><br><span class="muted">Bringing people, business, technology and design together.</span></div></div>
+</div></div></section>
+
+<section id="today"><div class="grid">
+<div><div class="eyebrow">Chapter 04 · Today</div><h2>Now I work where four worlds meet.</h2><div class="four">
+<div><h3>👥 People</h3><span class="muted">Needs, behaviour, context, expectations.</span></div>
+<div><h3>💼 Business</h3><span class="muted">Outcomes, value, constraints, priorities.</span></div>
+<div><h3>⚙️ Technology</h3><span class="muted">What is possible, scalable and practical.</span></div>
+<div><h3>🎨 Design</h3><span class="muted">Clarity, usability, interaction and craft.</span></div>
+</div></div>
+<div class="photo"><img class="heroimg" src="images/harsh-8.jpeg" alt="Harsh in a thoughtful pose"><span class="tag t1">PRODUCT DESIGN</span></div>
+</div></section>
+
+<section><div class="grid">
+<div class="photo"><img class="heroimg" src="images/harsh-4.jpeg" alt="Harsh holding coffee"><span class="tag t2">Coffee helps the WHYs. ☕</span></div>
+<div><div class="eyebrow">The philosophy</div><h2>Complexity is easy.<br><span class="mark">Simplicity takes work.</span></h2><p>The real satisfaction comes when a complicated problem becomes simple, a confusing experience starts making sense, or a user completes a task without stopping to ask, “What am I supposed to do now?”</p></div>
+</div></section>
+
+<section id="end"><div class="dark"><div class="eyebrow">The answer</div><div class="grid">
+<div><h2>I started with pixels.<br><span style="color:#ffd84d">I stayed for the problems.</span></h2><p>I didn't leave visual design behind. I simply added another layer to it: understanding people, behaviour and the problems worth solving.</p><p style="font-size:35px;font-weight:900">And after 12+ years, I'm still asking <span style="color:#ffd84d">WHY?</span></p></div>
+<div><img class="heroimg" src="images/harsh-6.jpeg" alt="Harsh in a formal shirt"></div>
+</div></div></section>
+<footer>HARSH · PRODUCT DESIGN · UX · 12+ YEARS · BUILT AROUND CURIOSITY</footer>
+</main>
+</body></html>
